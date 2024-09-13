@@ -42,8 +42,18 @@ h2 {
     margin-bottom: 1em; 
 }
 
-/*Adding margin to p tags*/
+/*Adding margin to footer tags*/
 
-p {
+footer {
+    margin-top: 10em;
+}
+
+/*Adding margin to section tags*/
+
+section {
     margin-bottom: 10em;
+}
+
+img, p {
+    padding: 1em;
 }
