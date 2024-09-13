@@ -34,3 +34,16 @@ a {
     text-decoration: none;
     color:#eeff00
 }
+
+/*Adding a margin for H2 and adjusting font size*/
+
+h2 {
+    font-size: 2em; 
+    margin-bottom: 1em; 
+}
+
+/*Adding margin to p tags*/
+
+p {
+    margin-bottom: 10em;
+}
