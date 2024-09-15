@@ -57,3 +57,18 @@ section {
 img, p {
     padding: 1em;
 }
+
+/*theoretically put a border box around sections*/
+
+.bordered-section {
+    border: 10px solid #eeff00;
+    padding: 20px; /* distance from inner content */
+    margin: 20px; /* distance from outer content */
+}
+
+#special-feature {
+    text-decoration: none;
+    background-color: #fde3a7;
+}
+
+a:hover { background-color: blue; color: white; }

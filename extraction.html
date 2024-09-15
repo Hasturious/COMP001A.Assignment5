@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+
+    <style>
+        .thin-orange-line {
+            border: none;
+            border-top: 20px solid orange;
+            margin: 20px 0; 
+        }
+    </style>
+
 </head>
 <body>
     <header>
@@ -19,19 +28,42 @@
         </nav>
     </header>
     <main>
+
+        <hr class="thin-orange-line">
+
         <section>
+            <ul>
+                <li>
+                    <a href="#rawiron">Raw Iron</a>
+                </li>
+                <li>
+                    <a href="#deposit">Iron Deposit</a>
+                </li>
+                <li>
+                    <a href="#smelter">Smelter</a>
+                </li>
+            </ul>
+        </section>
+        <section>
+
+            <div id="rawiron" class="bordered-section">
             <img src="images/Iron_Ore.png" alt="Raw chunk of iron">
             <p>Here we have the humble chunk of Iron as extracted directly from the earth</p>
+            </div>
         </section>
 
         <section>
+            <div id="deposit" class="bordered-section">
             <img src="images/node.png" alt="A node of raw iron ideal for extraction" height="300" width="400">
             <p>An iron deposit ideal for extraction</p>
+            </div>
         </section>
 
         <section>
+            <div id="smelter" class="bordered-section">
             <img src="images/miner.png" alt="The automatic mining structure" height="300" width="400">
             <p>The automatic mining structure which extracts the iron from deposits</p>
+            </div>
         </section>
     </main>
     <footer><p>© Copyright 2024 Jean Bryant Figueroa | <a href="https://github.com/Hasturious" target="_blank">Github</a></p></footer>
